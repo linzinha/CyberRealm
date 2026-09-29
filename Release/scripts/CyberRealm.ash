@@ -50,7 +50,7 @@ void main()
       combat_script += "while !pastround 24; skill Brute Force Hammer; skill throw cyber rock; repeat; endwhile;";
       
       // If we run into trouble
-      combat_script += "if hppercentbelow 50; skill launch logic grenade; endif; if pastround 24; skill launch logic grenade; endif;"
+      combat_script += "if hppercentbelow 50; skill launch logic grenade; endif; if pastround 24; skill launch logic grenade; endif;";
 
       while (get_property("_cr_finished") == false) 
       {
